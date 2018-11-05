@@ -12,4 +12,4 @@ This Python code is intended to filter DICOM (medical image). The filter that we
 
 The GUI was develop in PyQt with Qt designer
 
-![alt text](https://raw.githubusercontent.com/JScasG/Image-Filter-PyQt/blob/master/Images/main.PNG
+![alt text](https://raw.githubusercontent.com/JScasG/Image-Filter-PyQt/blob/master/Images/main.PNG)
