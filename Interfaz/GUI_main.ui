@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="open">
+       <property name="text">
+        <string>Open Image</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="FilterType">
+       <item>
+        <property name="text">
+         <string>Median filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gaussian filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Laplace filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Isotropic filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anisotropic filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FFT ideal filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Butterword filter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FFT gaussian filter</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="accept">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Parameters</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="filtrar">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Filter</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QWidget" name="horizontalWidget" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QWidget" name="org" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QHBoxLayout" name="plotorg"/>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="filt" native="true">
+          <layout class="QHBoxLayout" name="plotfilt"/>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>open</tabstop>
+  <tabstop>FilterType</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
