@@ -11,3 +11,5 @@ This Python code is intended to filter DICOM (medical image). The filter that we
 8. Frecuency gaussian filter
 
 The GUI was develop in PyQt with Qt designer
+
+![alt text](https://raw.githubusercontent.com/JScasG/Image-Filter-PyQt/blob/master/Images/main.PNG
